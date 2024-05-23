@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="149_868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="130dp"
+        android:minWidth="5dp"
+        android:minHeight="5dp" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOSAI SYS"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/salesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/blue"
+        android:text="@string/_149_868"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+    <TextView
+        android:id="@+id/percentageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1.5%"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/salesTextView"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-80dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/salesTextView">
+
+        <Button
+            android:id="@+id/dayButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Day" />
+
+        <Button
+            android:id="@+id/weekButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Week" />
+
+        <Button
+            android:id="@+id/monthButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:text="Month" />
+
+        <Button
+            android:id="@+id/yearButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Year" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/gift_icon"
+        android:src="@drawable/icon2"
+        app:layout_constraintTop_toBottomOf="@id/buttonLayout"
+        android:layout_marginTop="-150dp"
+        tools:layout_editor_absoluteX="40dp"/>
+
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:text="Decoración "
+        android:layout_marginTop="-130dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_plus"
+        android:backgroundTint="@color/zinc_600"
+        app:tint="@color/zinc_600" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon3"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <TextView
+        android:id="@+id/tv_discount"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:text="- $3.985"
+        android:textColor="@color/red_500"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

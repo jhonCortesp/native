@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="gift_icon" />
+    <drawable name="rounded_edit_text" />
+    <drawable name="ic_chart" />
+    <drawable name="ic_back" />
+    <drawable name="sales_chart" />
+    <drawable name="ic_menu" />
+    <drawable name="ic_settings" />
+    <drawable name="ic_search" />
+    <drawable name="ic_minus" />
+    <drawable name="ic_product" />
+    <drawable name="ic_plus" />
+    <drawable name="fondo" />
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="gift_icon" />
+    <string name="shosai_sys" />
+    <string name="username" />
+    <string name="password" />
+    <string name="login" />
+    <string name="Login">Login</string>
+    <string name="custom_button">Custom Button</string>
+    <string name="custom" />
+    <string name="Inisiar_sesion">Inisiar_sesion</string>
+    <string name="_149_868">$149.868</string>
+</resources>
